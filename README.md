@@ -19,6 +19,14 @@ Percentage below 40 then grade = Fail
 Display all details of student and grade.
 Use appropriate control structure and exception handling.
 
+
+
+
+
+
+
+
+
 CREATE TABLE student (
     rollno NUMBER PRIMARY KEY,
     name VARCHAR2(50),
@@ -74,4 +82,8 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Error occurred : ' || SQLERRM);
 
 END;
+
+
+
+
 /
